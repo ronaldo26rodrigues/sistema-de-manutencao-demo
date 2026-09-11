@@ -35,18 +35,17 @@ A aplicação ficará disponível pelo backend localmente, com o frontend já in
 
 Observação sobre a localização dos arquivos de dependências:
 
-- O backend fica na raiz do projeto, em `c:\Users\ronal\OneDrive\Documentos\Projetos\case manutencao`, e o arquivo de dependências é `requirements.txt`. Para instalar as dependências do backend, é preciso entrar nessa pasta com:
+- O backend fica na pasta `app`, e o arquivo de dependências é `requirements.txt`. Para instalar as dependências do backend, execute:
 
 ```bash
-cd c:\Users\ronal\OneDrive\Documentos\Projetos\case manutencao
 pip install -r requirements.txt
 ```
 
 - O módulo frontend fica em uma pasta separada, por exemplo `frontend`, dentro do projeto, onde estão os arquivos `package.json` e `package-lock.json` (ou `package.json` no diretório do módulo frontend). Para instalar as dependências do frontend, é preciso entrar nessa pasta com:
 
 ```bash
-cd c:\Users\ronal\OneDrive\Documentos\Projetos\case manutencao\frontend
+cd frontend
 npm install
 ```
 
-Se a pasta do frontend estiver em outra subpasta do projeto, use o mesmo padrão: `cd <caminho-da-pasta-do-frontend>` antes de executar `npm install` e `npm run build`.
+Se a pasta do frontend estiver em outra subpasta do projeto, use o mesmo padrão: `cd <pasta-do-frontend>` antes de executar `npm install` e `npm run build`.
