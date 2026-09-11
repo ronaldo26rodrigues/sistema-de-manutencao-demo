@@ -32,3 +32,5 @@ python main.py
 ```
 
 A aplicação ficará disponível pelo backend localmente, com o frontend já integrado à build gerada.
+
+> ❕Este é um protótipo demonstrativo. Parte do código foi desenvolvida com auxílio do GitHub Copilot e revisada por humanos, podendo, portanto, conter erros. ❕
